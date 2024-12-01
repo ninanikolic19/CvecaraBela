@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="#"?>
+<registracije>
+	<registracija>
+        <ime>Petar</ime>
+        <prezime>Nikolic</prezime>
+        <korisnickoime>mrnikolic</korisnickoime>
+		<email>petar@nesto.com</email>
+        <lozinka>petarniko123</lozinka>
+	</registracija>
+    <registracija>
+        <ime>Nela</ime>
+        <prezime>Smiljkovic</prezime>
+        <korisnickoime>nelas</korisnickoime>
+		<email>nela.smiljkovic@nesto.com</email>
+       <lozinka>das4343</lozinka>
+	</registracija>
+    <registracija>
+        <ime>Ratko</ime>
+        <prezime>Nikolić</prezime>
+        <korisnickoime>nikolic</korisnickoime>
+		<email>ratkon@nesto.com</email>
+       <lozinka>nikolicr13</lozinka>
+	</registracija>
+    <registracija>
+        <ime>Milica</ime>
+        <prezime>Smiljko</prezime>
+        <korisnickoime>mica16</korisnickoime>
+		<email>milicasm@nesto.com</email>
+        <lozinka>micamica</lozinka>
+	</registracija>
+    <registracija>
+        <ime>Milan</ime>
+        <prezime>Smiljkov</prezime>
+        <korisnickoime>milaan</korisnickoime>
+		<email>milan@nesto.com</email>
+        <lozinka>smiljkovicc</lozinka>
+	</registracija>
+</registracije>
