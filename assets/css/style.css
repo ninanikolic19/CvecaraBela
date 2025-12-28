@@ -94,9 +94,9 @@ nav ul li{
   text-shadow: 2px 2px 10px #000;
   margin: 0 0 20px 0;
 
-  position: relative;        /* BITNO */
-  left: -100px;              /* start levo */
-  opacity: 0;                /* start nevidljiv */
+  position: relative;        
+  left: -100px;              
+  opacity: 0;                
 
   animation: naslov 0.5s ease-out forwards;
   animation-delay: 0.5s;
@@ -360,26 +360,252 @@ form label{
 	font-size:18px;
 	color:#000;
 }
+#forma{
+	width:100%;
+	height:100px;
+	padding:10px 0px 0px 10px;
+	border:1px solid #fff;
+	border-bottom:1px solid #F875AA;
+}
+.kontakt input[type="submit"]{
+	text-align:center;
+	margin:15px 0px;
+}
+label{
+	float:left;
+}
 input[type="text"], input[type="password"], input[type="email"]{
 	width:100%;
 	padding:15px 10px;
 	border:1px solid #fff;
-	border-bottom:1px solid #f4cccc;
+	border-bottom:1px solid #F875AA;
 	margin-bottom:10px;
 }
 input[type="submit"]{
 	padding:10px 20px;
-	font-size:20px;
-	background-color:#f4cccc;
+    font-size: 16px;
+    border-radius: 10px;
+	background-color:#F875AA;
 	color:#000;
-	border:1px solid #000;
+    transition: 0.5s;
 	margin:10px 0px 20px; 
 }
 input[type="submit"]:hover{
 	color:#000;
-	background-color:#d3b2b2;
+    background-color: #ff2b80;
 }
 ::placeholder{
 	font-size:18px;
 	color:#adadad;
+}
+.kontakt h2{
+    margin: 20px 0px 30px;
+    justify-content: center;
+}
+.forme{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 90%;
+    margin: 60px auto;
+}
+
+.logovanje,
+.registracija{
+    width: 45%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+#autor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.foto{
+	width:40%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin-right:25px;
+}
+.opis p{
+	text-align: center;
+}
+.opis h2{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.indeks{
+	margin-top: 20px;
+	padding: 10px 15px;
+	border: 3px solid #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.indeks p{
+	text-shadow: 4px 4px #fff;
+}
+.katalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 90%;
+}
+.katalog-item {
+    width: 23%; 
+    height: 300px;
+    margin-bottom: 30px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.katalog-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+h2.katalog {
+    text-align: center; 
+    font-size: 48px;
+    font-style: italic;
+    margin: 50px 0;
+    padding-left: 10px;
+    display: inline-block; 
+}
+.katalog-wrapper {
+    text-align: center;
+}
+.sekcija {
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+.sekcija h2 {
+    font-size: 38px;
+    font-style: italic;
+    margin-bottom: 30px;
+    border-left: 3px solid #000;
+    padding-left: 10px;
+}
+
+.proizvod {
+    width: 22%;
+    height: 300px;
+    display: inline-block;
+    margin: 0 1% 30px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #000;
+    text-align: center;
+    position: relative;
+}
+.proizvod p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+#buket1 {
+    background-image: url('../img/buket1.jpg');
+}
+#buket2 {
+    background-image: url('../img/buket2.jpg');
+}
+#buket3 {
+    background-image: url('../img/buket3.jpg');
+}
+#buket4 {
+    background-image: url('../img/buket4.jpg');
+}
+#buket5 {
+    background-image: url('../img/buket5.jpg');
+}
+#buket6 {
+    background-image: url('../img/buket6.jpg');
+}
+#buket7 {
+    background-image: url('../img/buket7.jpg');
+}
+#buket8 {
+    background-image: url('../img/buket8.jpg');
+}
+#bidermajer1 {
+    background-image: url('../img/bidermajer1.jpg');
+}
+#bidermajer2 {
+    background-image: url('../img/bidermajer2.jpg');
+}
+#bidermajer3 {
+    background-image: url('../img/bidermajer3.jpg');
+}
+#bidermajer4 {
+    background-image: url('../img/bidermajer4.jpg');
+}
+#bidermajer5 {
+    background-image: url('../img/bidermajer5.jpg');
+}
+#bidermajer6 {
+    background-image: url('../img/bidermajer6.jpg');
+}
+#bidermajer7 {
+    background-image: url('../img/bidermajer7.jpg');
+}
+#bidermajer8 {
+    background-image: url('../img/bidermajer8.jpg');
+}
+#kutija1 {
+    background-image: url('../img/kutija1.jpg');
+}
+#kutija2 {
+    background-image: url('../img/kutija2.jpg');
+}
+#kutija3 {
+    background-image: url('../img/kutija3.jpg');
+}
+#kutija4 {
+    background-image: url('../img/kutija4.jpg');
+}
+#kutija5 {
+    background-image: url('../img/kutija5.jpg');
+}
+#kutija6 {
+    background-image: url('../img/kutija6.jpg');
+}
+#kutija7 {
+    background-image: url('../img/kutija7.jpg');
+}
+#kutija8 {
+    background-image: url('../img/kutija8.jpg');
+}
+#sobno1 {
+    background-image: url('../img/sobno.jpg');
+}
+#sobno2 {
+    background-image: url('../img/sobno1.jpg');
+}
+#sobno3 {
+    background-image: url('../img/sobno2.jpg');
+}
+#sobno4 {
+    background-image: url('../img/sobno3.jpg');
+}
+#sobno5 {
+    background-image: url('../img/sobno4.jpg');
+}
+#sobno6 {
+    background-image: url('../img/sobno5.jpg');
+}
+#sobno7 {
+    background-image: url('../img/sobno6.jpg');
+}
+#sobno8 {
+    background-image: url('../img/sobno8.jpg');
 }

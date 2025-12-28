@@ -1,0 +1,38 @@
+<rss version="2.0">
+<channel>
+    <title>Cvećara Bela</title>
+    <link>https://ninanikolic19.github.io/CvecaraBela/</link>
+    <description>Početna stranica sajta Cvećara Bela</description>
+
+    <item>
+        <title>Katalog</title>
+        <link>https://ninanikolic19.github.io/CvecaraBela/katalog.html</link>
+        <description>Pogledajte naš katalog</description>
+    </item>
+
+    <item>
+        <title>Galerija</title>
+        <link>https://ninanikolic19.github.io/CvecaraBela/galerija.html</link>
+        <description>Galerija slika</description>
+    </item>
+
+    <item>
+        <title>Prijava</title>
+        <link>https://ninanikolic19.github.io/CvecaraBela/prijava.html</link>
+        <description>Prijavite se</description>
+    </item>
+
+    <item>
+        <title>Kontakt</title>
+        <link>https://ninanikolic19.github.io/CvecaraBela/kontakt.html</link>
+        <description>Kontaktirajte nas</description>
+    </item>
+
+    <item>
+        <title>O autoru</title>
+        <link>https://ninanikolic19.github.io/CvecaraBela/autor.html</link>
+        <description>Informacije o autoru sajta</description>
+    </item>
+
+</channel>
+</rss>
