@@ -1,0 +1,6 @@
+
+User-agent: *
+Disallow: /prijava.html
+Disallow: /registracija.xml
+
+Sitemap: https://ninanikolic19.github.io/CvecaraBela/sitemap.xml

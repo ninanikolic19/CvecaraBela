@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripton" content="Kontakt| Forme">
+     <meta name="keywords" content="Cvećara, Cveće, Buketi">
+    <meta name="author" content="Nina Nikolić"> 
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+     <link type="image/png" sizes="32x32" rel="icon" href="assets/img//logo.png">
+    <title>Cvećara Bela</title>
+</head>
+<body>
+    <div class="zaglavlje">
+        <div class="top">
+            <div class="telefon">
+                <a href="tel:+381691910022">
+                <i class="bi bi-telephone"></i>+381 69 1910022</a>
+             </div>
+            <div class="mejl">
+                <a href="mailto:cvecara.bela&#64;com">
+                <i class="bi bi-envelope"></i>cvecara.bela&#64;gmail.com</a>
+             </div>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img class="logo_bela" src="assets/img/logo.png" alt="Cvećara Bela"/>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="o-nama.html">O nama</a></li>
+                <li><a href="katalog.html">Katalog</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="autor.html">Autor</a></li>
+            </ul>
+        </nav>
+        <div class="poruka">
+				<div class="kontakt">
+					<h2>Napišite nam poruku</h2>
+					<form method="POST" action="">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="Unesite vaš mail"/>
+						<label for="naslovporuke">Naslov(opciono)</label>
+						<input type="text" id="naslovporuke" name="naslovporuke" placeholder="Unesite naslov" />
+						<label for="poruka">Unesite poruku</label>
+						<textarea id="forma" name="forma" placeholder="Unesite poruku" required ></textarea>
+						<input type="submit" value="Pošalji" class="btn">
+					</form>
+                </div>
+        </div>
+        <div class="forme">
+                <div class="logovanje" id="login">
+                    <h2>Logovanje</h2>
+                    <form method="POST" action="">
+                    <label for="login-user">Korisničko ime ili email*</label>
+                    <input type="text" id="login-user" name="login-user" placeholder="Unesite korisničko ime ili email" required>
+                    <label for="login-pass">Lozinka*</label>
+                    <input type="password" id="login-pass" name="login-pass" placeholder="Unesite lozinku" required>
+                    <input type="submit" value="Logovanje" class="btn">
+                    </form>
+                   <p>Nemate nalog? <a href="#register">Registracija</a></p>
+                </div>
+                <div class="registracija" id="register">
+        <h2>Registracija</h2>
+        <form method="POST" action="">
+            <label for="reg-ime">Ime*</label>
+            <input type="text" id="reg-ime" name="reg-ime" placeholder="Ime" required>
+
+            <label for="reg-prezime">Prezime*</label>
+            <input type="text" id="reg-prezime" name="reg-prezime" placeholder="Prezime" required>
+
+            <label for="reg-user">Korisničko ime*</label>
+            <input type="text" id="reg-user" name="reg-user" placeholder="Korisničko ime" required>
+
+            <label for="reg-email">Email*</label>
+            <input type="email" id="reg-email" name="reg-email" placeholder="Email" required>
+
+            <label for="reg-pass">Lozinka*</label>
+            <input type="password" id="reg-pass" name="reg-pass" placeholder="Lozinka" required>
+
+            <label for="reg-pass2">Potvrda lozinke*</label>
+            <input type="password" id="reg-pass2" name="reg-pass2" placeholder="Ponovo lozinka" required>
+
+            <input type="submit" value="Registracija" class="btn">
+        </form>
+        <p>Već imate nalog? <a href="#login">Logovanje</a></p>
+    </div>
+
+</div>
+         <footer>
+    <div class="futer1">
+    <h2>Pratite nas</h2>
+    <ul>
+        <li class="razmak">
+        <a href="https://sr-rs.facebook.com/">
+            <i class="bi bi-facebook" aria-hidden="true"></i><span>Facebook</span>
+        </a>
+        </li>
+        <li>
+        <a href="https://twitter.com/?lang=sr">
+            <i class="bi bi-twitter-x" aria-hidden="true"></i><span>Twitter</span>
+        </a>
+        </li>
+        <li>
+        <a href="https://www.instagram.com/">
+            <i class="bi bi-instagram" aria-hidden="true"></i><span>Instagram</span>
+        </a>
+        </li>
+        <li>
+        <a href="https://www.linkedin.com/">
+            <i class="bi bi-linkedin" aria-hidden="true"></i><span>LinkedIn</span>
+        </a>
+        </li>
+        <li>
+        <a href="https://www.youtube.com/">
+            <i class="bi bi-youtube" aria-hidden="true"></i><span>Youtube</span>
+        </a>
+        </li>
+    </ul>
+    </div>
+
+    <div class="futer2">
+    <h2>Kontakt</h2>
+ <ul>
+        <li>
+        <i class="bi bi-clock" aria-hidden="true"></i> <a href="kontakt.html">
+        <span>Pon-Sub: 8-20h | Ned: 8-15h</a></span>
+        </li>
+        <li>
+        <i class="bi bi-house" aria-hidden="true"></i><a href="https://www.google.com/maps/search/?api=1&query=Karadjordjeva+55+Beograd" target="_blank">
+        <span>Karadjordjeva 55, Beograd</a></span>
+        </li>
+        <li>
+        <i class="bi bi-telephone" aria-hidden="true"></i><a href="tel:+381691910022">
+        <span>+381 691910022</span></a>
+        </li>
+        <li>
+        <i class="bi bi-envelope" aria-hidden="true"></i><a href="mailto:cvecara.bela&#64;com">
+        <span>cvecarabela&#64;gmail&#46;com</a></span>
+        </li>
+    </ul>
+    </div>
+
+    <div class="futer3">
+    <h2>Za sajt</h2>
+    <ul>
+        <li class="razmak"><a href="sitemap.xml">Sitemap</a></li>
+        <li><a href="rss.xml">RSS</a></li>
+        <li><a href="registracija.xml">Registracija</a></li>
+        <li><a href="robots.txt">Robots</a></li>
+    </ul>
+    </div>
+
+    </footer>
+</body>
+</html>
